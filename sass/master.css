@@ -25,11 +25,17 @@ header {
   color: #fff; }
   header .encabezado {
     margin: 10px 0;
-    text-align: center; }
+    flex: center; }
     header .encabezado .foto {
+      width: 300;
+      height: 300;
+      flex: center;
       justify-content: center;
       align-content: center; }
     header .encabezado .contenedor-texto {
+      width: 300;
+      height: 300;
+      flex: center;
       justify-content: center;
       align-content: center; }
 
