@@ -10,34 +10,28 @@ body {
   font-family: "Open Sans";
   font-size: 16px; }
 
-.contenedor {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-  /* quere era esto ?? */
-  overflow: hidden; }
-
 header {
   background: #DA81F5;
-  background-repeat: no-repeat;
-  background-position: center;
-  max-height: 700px;
-  color: #fff; }
-  header .encabezado {
-    margin: 10px 0;
-    flex: center; }
-    header .encabezado .foto {
-      width: 300;
-      height: 300;
-      flex: center;
-      justify-content: center;
-      align-content: center; }
-    header .encabezado .contenedor-texto {
-      width: 300;
-      height: 300;
-      flex: center;
-      justify-content: center;
-      align-content: center; }
+  color: #fff;
+  width: 90%;
+  max-width: 900px;
+  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  header .foto {
+    order: 2;
+    margin: 20px;
+    padding: 20px;
+    background: red; }
+  header .contenedor-texto {
+    order: 1;
+    margin: 20px;
+    padding: 20px;
+    background: orange; }
 
 .main {
   background: #fff;

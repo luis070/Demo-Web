@@ -1,22 +1,23 @@
 header
   background: #DA81F5
   // url("../img/fondo.jpg")
-  background-repeat: no-repeat
-  background-position: center
-  max-height: 700px
   color: #fff
-  .encabezado
-    margin: 10px 0
-    flex: center
-    .foto
-      width: 300
-      height: 300
-      flex: center
-      justify-content: center
-      align-content: center
-    .contenedor-texto
-      width: 300
-      height: 300
-      flex: center
-      justify-content: center
-      align-content: center
+  width: 90%
+  max-width: 900px
+  height: 500px
+  display: flex
+  flex-direction: row-reverse
+  flex-wrap: wrap
+  justify-content: center
+  align-items: center
+  text-align: center
+  .foto
+    order: 2
+    margin: 20px
+    padding: 20px
+    background: red
+  .contenedor-texto
+    order: 1
+    margin: 20px
+    padding: 20px
+    background: orange
