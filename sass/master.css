@@ -1,33 +1,47 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
-  background: #f2f2f2;
-  font-family: Arial, sans-serif; }
-
-.contenedor {
-  width: 700px;
-  margin: 20px; }
-
-header,
-.main,
-aside,
-footer {
-  padding: 20px; }
+  background: #fff;
+  font-family: "Open Sans";
+  background: #EBC1E8 url("../img/fondo1.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
 
 header {
-  background: url("../img/documentos.jpg"), #DA81F5;
-  background-repeat: no-repeat;
-  background-position: center;
-  max-height: 700px;
-  color: #fff; }
+  color: #fff;
+  height: 250px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center; }
+  header .foto {
+    order: 2;
+    margin: 20px;
+    padding: 20px; }
+  header .contenedor-texto {
+    order: 1;
+    margin: 20px;
+    padding: 20px; }
 
 .main {
-  background: #fff;
-  width: 70%;
-  float: left; }
+  background: #D176CA;
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+  border: 1px outset #C351BA;
+  border-radius: 10px;
+  margin: auto; }
 
 footer {
   clear: both;
