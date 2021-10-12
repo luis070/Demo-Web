@@ -32,17 +32,19 @@ header {
 
 .main {
   background: #D176CA;
+  overflow: hidden;
   width: 35%;
   height: 300px;
+  max-height: 300px;
   border: 1px outset #C351BA;
   border-radius: 10px;
-  margin: auto; }
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
   .main .Datos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 250px;
-    padding: 20px; }
+    font-size: 20px;
+    width: 40%; }
 
 footer {
   clear: both;
