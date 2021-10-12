@@ -8,7 +8,7 @@
 body {
   background: #fff;
   font-family: "Open Sans";
-  background: #EBC1E8 url("../img/fondo1.jpg");
+  background: #EBC1E8 url("../img/fondo.jpg");
   background-size: cover;
   background-attachment: fixed; }
 
@@ -33,20 +33,18 @@ header {
 .main {
   background: #D176CA;
   width: 35%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  text-align: center;
   height: 300px;
   border: 1px outset #C351BA;
   border-radius: 10px;
   margin: auto; }
+  .main .datos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; }
 
 footer {
   clear: both;
   width: 100%;
-  background: #0D2C44;
-  color: #fff; }
+  background: #DE9BD9; }
 
 /*# sourceMappingURL=master.css.map */
